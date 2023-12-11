@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #424242;
+    justify-content: center;
+    box-sizing: 0;
+}
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1080px;
+    filter: blur(90px);
+
+    z-index: -1;
+    margin-top: -200px;
+
+}
+.voltar {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 30px 20px;
+    background: transparent;
+    border: none;
+}
+.voltar p {
+    color: white;
+    margin-left: 10px;
+}
+.voltar :hover {
+    font-weight: 600;
+}
+.voltar img {
+    width: 20px;
+}
+
+#form {
+    position: absolute;
+    right: 700px;
+    top: 150px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 300px;
+    height: 472px;
+    padding: 25px;
+    background-color: #161616;
+    box-shadow: 0px 15px 60px #6220fb;
+    outline: 1px solid #6220fb;
+    border-radius: 10px;
+  }
+  
+  #welcome-lines {
+    text-align: center;
+    line-height: 1;
+  }
+  
+  #welcome-line-1 {
+    color: #6220fb;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  #welcome-line-2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 17px;
+  }
+  
+  #input-area {
+    margin-top: 40px;
+  }
+  
+  .form-inp {
+    padding: 11px 25px;
+    background: transparent;
+    border: 1px solid #e3e3e3;
+    line-height: 1;
+    border-radius: 8px;
+  }
+  
+  .form-inp:focus {
+    border: 1px solid #6220fb;
+  }
+  
+  .form-inp:first-child {
+    margin-bottom: 15px;
+  }
+  
+  .form-inp input {
+    width: 100%;
+    background: none;
+    font-size: 13.4px;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .form-inp input:focus {
+    outline: none;
+  }
+  
+  #submit-button-cvr {
+    margin-top: 20px;
+  }
+  
+  #submit-button {
+    display: block;
+    width: 100%;
+    color: #6220fb;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    padding: 14px 13px 12px 13px;
+    border: 0;
+    outline: 1px solid #6220fb;
+    border-radius: 8px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+  }
+  
+  #submit-button:hover {
+    transition: all ease-in-out .3s;
+    background-color: #6220fb;
+    color: #161616;
+    cursor: pointer;
+  }
+  
+  #forgot-pass {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #forgot-pass a {
+    color: #868686;
+    font-size: 12px;
+    text-decoration: none;
+  }
+    
+  #form-2 {
+      display: none;
+  }
+  
+  #form-2-content {
+      text-align: center;
+  }
+  
+  #form-2-content .form-inp {
+      padding: 11px 25px;
+      background: transparent;
+      border: 1px solid #e3e3e3;
+      line-height: 1;
+      border-radius: 8px;
+      margin: 10px 0;
+  }
+  
+  #form-2-content .form-inp input {
+      width: 100%;
+      background: none;
+      font-size: 13.4px;
+      color: #6220fb;
+      border: none;
+      padding: 0;
+      margin: 0;
+      outline: none;
+  }
+  
+  #form-2-submit-button-cvr {
+      margin-top: 20px;
+  }
+  
+  #form-2-submit-button {
+      display: block;
+      width: 100%;
+      color: #6220fb;
+      background-color: transparent;
+      font-weight: 600;
+      font-size: 14px;
+      margin: 0;
+      padding: 14px 13px 12px 13px;
+      border: 0;
+      outline: 1px solid #6220fb;
+      border-radius: 8px;
+      line-height: 1;
+      cursor: pointer;
+      transition: all ease-in-out .3s;
+  }
+  
+  #form-2-submit-button:hover {
+      transition: all ease-in-out .3s;
+      background-color: #6220fb;
+      color: #161616;
+      cursor: pointer;
+  }
+  #span{
+    background-color: transparent;
+    color: #6220fb;
+  }
